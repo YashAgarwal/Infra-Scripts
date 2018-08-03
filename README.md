@@ -12,22 +12,22 @@ Some handy initctl scripts
 1. in /etc/default add
   - celeryd
 
-## Gunicorn server
+### Gunicorn server
 ```
 sudo initctl start abc_backend_service
 ```
 
-## Celery
+### Celery
 ```
 sudo service celeryd start
 ```
 
-## Redis
+### Redis
 ```
 sudo initctl start redis-server-service
 ```
 
-## Flower
+### Flower
 ```
 sudo initctl start flower-server-service 
 ```
